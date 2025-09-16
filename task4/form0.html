@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Registration Form</title>
+</head>
+
+<body>
+    <form name="Registration Form" action="Server2" method="post">
+        <caption>
+            <h3>Registration Form</h3>
+        </caption>
+        <table cellspacing="8px" bgcolor="silver">
+            <tr>
+                <label>
+                    <td>First Name</td>
+                    <td>Last name</td>
+                </label>
+
+            </tr>
+            <tr>
+                <td>
+                    <input type="text" id="firstName" name="firstName" required>
+                </td>
+                <td>
+                    <input type="text" id="lastName" name="lastName" required>
+                </td>
+            </tr>
+            <tr>
+                <label>
+                    <td>Birthday</td>
+                    <td>Gender</td>
+                </label>
+            </tr>
+            <tr>
+                <td>
+                    <input type="date" id="date" name="date">
+                </td>
+                <td>
+                    <input type="radio" id="Male" name="Gender" value="Male">Male
+                    <input type="radio" id="Female" name="Gender" value="Female">Female
+                </td>
+            </tr>
+            <tr>
+                <label>
+                    <td>Email</td>
+                    <td>Phone Number</td>
+                </label>
+            </tr>
+            <tr>
+                <td>
+                    <input type="email" id="mail" name="mail">
+                </td>
+                <td>
+                    <input type="phone" id="phone" name="phone">
+                </td>
+            </tr>
+            <tr>
+                <label>
+                    <td>Subject</td>
+                </label>
+            </tr>
+            <tr >
+                <td colspan="2">
+                    <select id="Subject" name="subject" style=width:100%>
+                        <option>choose option</option>
+                        <option>Telugu</option>
+                        <option>Hindi</option>
+                        <option>English</option>
+                        <option>Maths</option>
+                        <option>Science</option>
+                        <option>Social</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="submit" id="submit" name="submit" value="SUBMIT">
+            </tr>
+            </td>
+        </table>
+    </form>
+</body>
+
+</html>
